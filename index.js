@@ -111,4 +111,3 @@ client.on('ready', ()=>console.log('BOT '+client.user.tag+' ONLINE'));
 app.listen(process.env.PORT||3000,'0.0.0.0',()=>console.log('WEB ONLINE'));
 client.login(process.env.TOKEN);
 `);
-});
